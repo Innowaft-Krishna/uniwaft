@@ -80,13 +80,21 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </div>
 
               <div className="flex items-center gap-5">
-                <a href="#" className="group p-3.5 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:bg-brand-primary hover:border-brand-primary hover:text-white dark:hover:bg-brand-primary dark:hover:border-brand-primary dark:hover:text-white transition-all duration-300">
+                {/* LinkedIn - Blue #0077b5 */}
+                <a href="#" className="group p-3.5 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:bg-[#0077b5] hover:border-[#0077b5] hover:text-white dark:hover:bg-[#0077b5] dark:hover:border-[#0077b5] transition-all duration-300">
                   <Linkedin className="w-6 h-6" />
                 </a>
-                <a href="#" className="group p-3.5 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:bg-indigo-600 hover:border-indigo-600 hover:text-white dark:hover:bg-indigo-600 dark:hover:border-indigo-600 dark:hover:text-white transition-all duration-300">
-                  <Instagram className="w-6 h-6" />
+                {/* Instagram - Gradient */}
+                <a href="#" className="group relative p-3.5 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 overflow-hidden transition-all duration-300">
+                  <div 
+                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full"
+                    style={{
+                      background: 'linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)'
+                    }}
+                  ></div>
+                  <Instagram className="w-6 h-6 relative z-10 text-slate-600 dark:text-slate-400 group-hover:text-white transition-colors duration-300" strokeWidth={2} />
                 </a>
-                {/* X Icon */}
+                {/* X/Twitter - Black in light mode, White in dark mode */}
                 <a href="#" className="group p-3.5 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:bg-black hover:border-black hover:text-white dark:hover:bg-white dark:hover:border-white dark:hover:text-black transition-all duration-300">
                   <svg viewBox="0 0 24 24" aria-hidden="true" className="w-6 h-6 fill-current">
                     <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />

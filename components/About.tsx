@@ -15,9 +15,9 @@ export const About: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-6xl font-heading font-extrabold text-slate-900 dark:text-white mb-8">About Uniwaft</h2>
+            <h2 className="text-4xl md:text-6xl font-heading font-extrabold text-slate-900 dark:text-white mb-8">About Univaft</h2>
             <p className="text-slate-600 dark:text-slate-300 text-xl leading-relaxed mb-8">
-              Uniwaft isn't just a dev shop; we are your strategic technology partner. 
+              Univaft isn't just a dev shop; we are your strategic technology partner. 
               Born from a passion for clean code and exceptional design, we help startups 
               and established enterprises navigate the digital landscape.
             </p>

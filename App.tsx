@@ -10,6 +10,7 @@ import { About } from './components/About';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { Careers } from './components/Careers';
+import { ScrollToTop } from './components/ScrollToTop';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState('home');
@@ -125,6 +126,7 @@ const App: React.FC = () => {
       </main>
 
       <Footer onNavigate={handleNavigate} />
+      <ScrollToTop />
     </div>
   );
 };

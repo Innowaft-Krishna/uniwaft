@@ -19,7 +19,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           {/* Column 1: Brand & Description */}
           <div className="flex flex-col items-start space-y-8">
             <span className="text-3xl font-heading font-extrabold tracking-tight text-slate-900 dark:text-white">
-              Uniwaft
+              Univaft
             </span>
             <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed max-w-sm">
               Building scalable digital solutions that help businesses grow. From custom software to cloud infrastructure, we are your partners in innovation.
@@ -73,9 +73,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                    <Phone className="w-5 h-5 flex-shrink-0" />
                    <span>+91 84640 65256</span>
                 </a>
-                <a href="mailto:office@uniwaft.com" className="flex items-center gap-3 text-lg text-slate-600 dark:text-slate-400 hover:text-brand-primary dark:hover:text-brand-primary transition-colors">
+                <a href="mailto:office@univaft.com" className="flex items-center gap-3 text-lg text-slate-600 dark:text-slate-400 hover:text-brand-primary dark:hover:text-brand-primary transition-colors">
                   <Mail className="w-5 h-5 flex-shrink-0" />
-                  <span>office@uniwaft.com</span>
+                  <span>office@univaft.com</span>
                 </a>
               </div>
 
@@ -101,7 +101,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         {/* Bottom Bar */}
         <div className="pt-10 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-500 text-base font-medium">
-            © {new Date().getFullYear()} Uniwaft. All rights reserved.
+            © {new Date().getFullYear()} Univaft. All rights reserved.
           </p>
           <div className="flex gap-10 text-base font-medium text-slate-500">
             <a href="#" className="hover:text-brand-primary transition-colors">Privacy Policy</a>

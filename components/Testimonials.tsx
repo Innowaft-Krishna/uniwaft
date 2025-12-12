@@ -6,17 +6,17 @@ const testimonials = [
   {
     name: 'Alex Johnson',
     role: 'CTO, FinStream',
-    quote: "Uniwaft transformed our legacy system into a modern cloud powerhouse. Their attention to detail and architectural decisions were spot on.",
+    quote: "Univaft transformed our legacy system into a modern cloud powerhouse. Their attention to detail and architectural decisions were spot on.",
   },
   {
     name: 'Sarah Chen',
     role: 'Founder, Retailify',
-    quote: "Working with the Uniwaft team was seamless. They understood our vision from day one and delivered a mobile app that our customers love.",
+    quote: "Working with the Univaft team was seamless. They understood our vision from day one and delivered a mobile app that our customers love.",
   },
   {
     name: 'Michael Ross',
     role: 'Director of Product, HealthTech',
-    quote: "Reliable, innovative, and incredibly skilled. Uniwaft didn't just build software; they helped refine our product strategy.",
+    quote: "Reliable, innovative, and incredibly skilled. Univaft didn't just build software; they helped refine our product strategy.",
   }
 ];
 

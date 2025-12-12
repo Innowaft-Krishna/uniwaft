@@ -11,7 +11,7 @@ export const Contact: React.FC = () => {
     // Construct the mailto link
     const subject = `Project Inquiry from ${formState.name}`;
     const body = `Name: ${formState.name}\nEmail: ${formState.email}\n\nProject Brief:\n${formState.message}`;
-    const mailtoLink = `mailto:Uniwaft@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:Univaft@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     // Open the user's email client
     window.location.href = mailtoLink;
@@ -39,7 +39,7 @@ export const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-base text-slate-500 uppercase tracking-wide font-semibold">Email Us</p>
-                  <p className="text-xl font-bold">Contact@Uniwaft.com</p>
+                  <p className="text-xl font-bold">Contact@Univaft.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-6 text-slate-600 dark:text-slate-300">

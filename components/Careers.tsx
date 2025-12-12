@@ -75,7 +75,7 @@ export const Careers: React.FC = () => {
         >
             <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-3">Don't see your role?</h3>
             <p className="text-slate-600 dark:text-slate-400 mb-8 text-xl">We are always open to meeting talented people. Send your resume to our HR team.</p>
-            <a href="mailto:careers@uniwaft.com" className="text-brand-primary font-bold hover:underline text-xl">careers@uniwaft.com</a>
+            <a href="mailto:careers@univaft.com" className="text-brand-primary font-bold hover:underline text-xl">careers@univaft.com</a>
         </motion.div>
       </div>
     </section>

@@ -96,7 +96,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           variants={item}
           className="max-w-3xl text-xl md:text-2xl text-slate-600 dark:text-slate-400 mb-12 leading-relaxed"
         >
-          Univaft is a technology solutions company delivering scalable software, web, and mobile applications tailored to business needs, focusing on innovation, reliability, and user-centric design.
+          Uniwaft is a technology solutions company delivering scalable software, web, and mobile applications tailored to business needs, focusing on innovation, reliability, and user-centric design.
         </motion.p>
 
         <motion.div

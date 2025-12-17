@@ -36,7 +36,7 @@ export const Services: React.FC = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-20"
         >
-          <h2 className="text-4xl md:text-6xl font-heading font-extrabold text-slate-900 dark:text-white mb-6">What Univaft Does</h2>
+          <h2 className="text-4xl md:text-6xl font-heading font-extrabold text-slate-900 dark:text-white mb-6">What Uniwaft Does</h2>
           <div className="h-1.5 w-24 bg-cyan-600 dark:bg-brand-primary mx-auto rounded-full"></div>
         </motion.div>
 

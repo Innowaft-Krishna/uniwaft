@@ -25,7 +25,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate, theme, 
               onClick={() => onNavigate('home')} 
               className="text-2xl md:text-3xl font-heading font-bold tracking-tight text-slate-900 dark:text-white flex items-center gap-2 focus:outline-none transition-colors"
             >
-              Univaft
+              Uniwaft
             </button>
           </div>
           

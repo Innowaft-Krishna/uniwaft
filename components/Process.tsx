@@ -36,7 +36,7 @@ export const Process: React.FC = () => {
           className="text-center mb-24"
         >
           <span className="text-cyan-600 dark:text-brand-primary font-bold tracking-widest text-base uppercase">The Workflow</span>
-          <h2 className="text-4xl md:text-6xl font-heading font-extrabold text-slate-900 dark:text-white mt-4">How Univaft Works With You</h2>
+          <h2 className="text-4xl md:text-6xl font-heading font-extrabold text-slate-900 dark:text-white mt-4">How Uniwaft Works With You</h2>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-16 lg:gap-10">
